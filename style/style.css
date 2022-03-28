@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #F6D7FF;
+}
+
+.portada{
+	object-fit: cover;
+	width: 100%;
+	height: 200px;
+	object-position: 20% 10% ;
+}
+
+.title {
+	margin: auto;
+	font-family: Dancing Script;
+	font-size: 40px;
+	text-align: center;
+	color:#FFFFFF;
+	padding: 10px;
+	
+}
+.serv{
+	font-family: Dancing Script;
+	font-size: 40px;
+	color: #BF3EA6;
+	text-align: center;
+}
+.logo{
+	width: 20%;
+}
+.logo22{
+	width: 25%;
+}
+h2{
+	font-family: Poppins Light;
+	color: #8F8F8E;
+	text-align: center;
+}
+h3{
+	font-family: Poppins Light;
+	color: #8F8F8E;
+	text-align: center;
+}
+.texto1{
+	padding: 20px;
+}
+.experiencia{
+	background-color: #FFFFFF;
+	border: solid 2px #DBD7D7 ;
+	border-radius: 20px;
+	width: 40%;
+	align-content: center;
+	display: block;
+	margin: auto;
+	padding: 20px;
+	
+}
+.proyecto{
+	width: 50%;
+	height: 500px;
+display: block;
+	margin: auto;
+}
+.textoa{
+	font-family: Poppins Light;
+	color: #8F8F8E;
+	font-size: 20px;
+}
+.servicio{
+	width: 15%;
+}
+.menuser{
+	width:33%;
+	display: block;
+	margin: auto;
+}
+.menuarcoiris{
+	background-color: #FFFFFF;
+	padding: 15px;
+	display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+}
+.item-menu{
+	margin: auto;
+	font-family: Dancing Script;
+	font-size: 30px;
+}
+.fotos{
+	display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+}
+.servicios-item{
+	font-family: Poppins Light;
+	color: #8F8F8E;
+	background-color: #FFFFFF;
+	border: solid 2px #DBD7D7 ;
+	border-radius: 20px;
+	width: 40%;
+	align-content: center;
+	display: block;
+	margin: auto;
+	padding: 20px;
+	
+}
+.fotos2{
+	border-radius: 10px;
+	width: 200px;
+	padding: 0;
+	display:block;
+	margin: auto;
+	align-content: center;
+}
+.last{
+	border-radius: 10px;
+	height: 150px;
+	padding: 0;
+	display:block;
+	margin: auto;
+	align-content: center;
+}
+.icono{
+	display: block;
+	margin:auto;
+	width: 50px;
+	justify-content: center;
+}
+.iconocaja{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	justify-content: center;
+}
+.avatar {
+	object-fit: cover;
+	width: 12%;
+	height: 12%;
+	object-position: 50% 50%;
+	border-radius: 100%;
+	margin: auto;
+	display: block;
+}
+@font-face{
+	font-family: Ramona Bold;
+	src: url("../Ramona/Ramona-Bold.ttf");
+}
+@font-face{
+	font-family: Ramona Light;
+	src: url("../Ramona/Ramona-Light.ttf");
+}
+@font-face{
+	font-family: Dancing Script;
+	src: url("../Dancing_Script/static/DancingScript-Bold.ttf");
+}
+@font-face {
+	font-family: Montserrat Light;
+	src: url("file:///D:/Greta/Code/Veterinaria/Montserrat/static/Montserrat-Light.ttf")
+}
+@font-face {
+	font-family: Poppins Light;
+	src: url("file:///D:/Greta/Code/Veterinaria/Poppins/Poppins-Light.ttf")
+}
