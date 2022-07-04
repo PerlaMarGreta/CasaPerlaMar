@@ -15,6 +15,10 @@ body {
 	margin-top: 10%;
 	
 }
+
+.enlacefirma{
+	color: #FFFDFD;
+}
 .portada{
 	object-fit: cover;
 	width: 100%;
