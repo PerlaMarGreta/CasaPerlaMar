@@ -2,9 +2,19 @@
 /* CSS Document */
 
 body {
-	background-color: #F6D7FF;
+	background-color: #FFFFFF;
 }
 
+.firma{
+	color: aliceblue;
+	font-family: Dancing Script;
+	font-size: 20px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 10%;
+	margin-top: 10%;
+	
+}
 .portada{
 	object-fit: cover;
 	width: 100%;
@@ -26,9 +36,16 @@ body {
 	font-size: 40px;
 	color: #BF3EA6;
 	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 .logo{
-	width: 20%;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+    display: block;
+	height: 100px;
 }
 .logo22{
 	width: 25%;
@@ -45,12 +62,13 @@ h3{
 }
 .texto1{
 	padding: 20px;
+	margin-top: 50px;
 }
 .experiencia{
 	background-color: #FFFFFF;
-	border: solid 2px #DBD7D7 ;
+	border: solid 2px #DBD7D7;
 	border-radius: 20px;
-	width: 40%;
+	width: 100%;
 	align-content: center;
 	display: block;
 	margin: auto;
@@ -64,9 +82,10 @@ display: block;
 	margin: auto;
 }
 .textoa{
-	font-family: Poppins Light;
-	color: #8F8F8E;
-	font-size: 20px;
+	font-family: Ramona Light;
+	color: #000000;
+	font-size:  30px;
+	margin: 10%;
 }
 .servicio{
 	width: 15%;
@@ -77,15 +96,24 @@ display: block;
 	margin: auto;
 }
 .menuarcoiris{
-	background-color: #FFFFFF;
+	background-color: #4549F4;
 	padding: 15px;
 	display: grid;
     grid-template-columns: 33% 33% 33%;
     justify-content: center;
 }
+.footercontacto{
+	background-color: #4549F4;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+
+
 .item-menu{
-	margin: auto;
-	font-family: Dancing Script;
+	margin: auto; 
+    font-family: Dancing Script;
 	font-size: 30px;
 }
 .fotos{
@@ -93,13 +121,14 @@ display: block;
     grid-template-columns: 33% 33% 33%;
     justify-content: center;
 }
-.servicios-item{
-	font-family: Poppins Light;
+.servicios-item {
+	font-family: Ramona Light;
 	color: #8F8F8E;
 	background-color: #FFFFFF;
 	border: solid 2px #DBD7D7 ;
 	border-radius: 20px;
-	width: 40%;
+	width: 100%;
+	height: auto;
 	align-content: center;
 	display: block;
 	margin: auto;
@@ -108,10 +137,12 @@ display: block;
 }
 .fotos2{
 	border-radius: 10px;
-	width: 200px;
+	height: 200px;
 	padding: 0;
 	display:block;
-	margin: auto;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
 	align-content: center;
 }
 .last{
@@ -141,6 +172,27 @@ display: block;
 	border-radius: 100%;
 	margin: auto;
 	display: block;
+}
+
+.terraza {
+	width: 100%;
+	border-radius: 30px;
+}
+
+.insta{
+	height: 50px;
+    margin-left: 33%;
+	margin-right: 33%;
+	margin-bottom: 10%;
+	margin-top: 10%;
+}
+.whatsapp{
+	height: 50px;
+    margin-left: 33%;
+	margin-right: 33%;
+	margin-bottom: 10%;
+	margin-top: 10%;
+	
 }
 @font-face{
 	font-family: Ramona Bold;
