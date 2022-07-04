@@ -218,3 +218,9 @@ display: block;
 	font-family: Poppins Light;
 	src: url("file:///D:/Greta/Code/Veterinaria/Poppins/Poppins-Light.ttf")
 }
+
+@media (max-width: 600px){
+	.contenido{
+		flex-direction: column;
+	}
+}
