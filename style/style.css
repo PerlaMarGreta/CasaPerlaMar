@@ -219,7 +219,7 @@ display: block;
 	src: url("file:///D:/Greta/Code/Veterinaria/Poppins/Poppins-Light.ttf")
 }
 
-@media (max-width: 600px){
+@media (max-width: 500px){
 	.contenido{
 		flex-direction: column;
 	}
