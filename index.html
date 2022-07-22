@@ -15,7 +15,10 @@
 				 <div class="row">
 					 <div class="col-4"></div>
 					 <div class="col-4"> <a href="index.html"><img  class="logo" src="diseño/3x/logofinal@3x.png"></a></div>
-					 <div class="col-4"></div>
+					 <div class="col-2">
+					 <button type="button" class="btn btn-success boton" onclick="myalert()" respuesta>Iniciar Sesión</button></div>
+					  <div class="col-2">
+					 <button type="button" class="btn btn-success boton" onclick="myalert()"> Registrate </button></div>
 					 
 				 </div>
 				
@@ -41,7 +44,19 @@
 			 
 		  </div>
 		</div>
-		<div><p>Hace tu reserva</p></div> 
+			<div class="container">
+		 <div class="row contenido">
+			  <div class="col-md-4">
+			 </div>
+			 <div class="col-md-4 ">
+			<button type="button" class="btn btn-success boton" onclick="myalert()">Hace tu reserva</button>
+			  </div>
+			 <div class="col-md-4">
+			 </div>
+		  </div>
+		</div>
+	
+	
 
     </section >
 	 
@@ -54,5 +69,16 @@
 	     </div>
 	
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
+	 
+<script>
+ function myalert() {
+ alert("Esta función se habilitara muy pronto");
+ var respuesta = confirm("Desea dejar una consulta online?");        
+ if(respuesta)
+ window.location= "contacto.html";
+ else
+  window.location= "index.html";
+}
+</script>
 </body>
 </html>

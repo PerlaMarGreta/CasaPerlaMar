@@ -198,6 +198,13 @@ display: block;
 	margin-top: 10%;
 	
 }
+
+.boton{
+	margin-top: 20%;
+	margin-left: 33%;
+	margin-right: 33%;
+	margin-bottom: 20%;
+}
 @font-face{
 	font-family: Ramona Bold;
 	src: url("../Ramona/Ramona-Bold.ttf");
