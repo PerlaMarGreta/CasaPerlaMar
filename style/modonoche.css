@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	background-color: #FFFFFF;
+	background-color: #868686;
 }
 
 .firma{
@@ -100,14 +100,14 @@ display: block;
 	margin: auto;
 }
 .menuarcoiris{
-	background-color: #4549F4;
+	background-color: #000000;
 	padding: 15px;
 	display: grid;
     grid-template-columns: 33% 33% 33%;
     justify-content: center;
 }
 .footercontacto{
-	background-color: #4549F4;
+	background-color: #000000;
 	margin-right: 0px;
 	margin-left: 0px;
 	padding: 0px;
@@ -205,10 +205,9 @@ display: block;
 	margin-right: 33%;
 	margin-bottom: 20%;
 }
-
 .botonmodo{
-   background-color:#000000;
-   color: #FFFFFF;
+	background-color:#FFFFFF;
+	color: #000000;
 }
 @font-face{
 	font-family: Ramona Bold;
@@ -235,4 +234,6 @@ display: block;
 	.contenido{
 		flex-direction: column;
 	}
-}
+}@charset "utf-8";
+/* CSS Document */
+

@@ -4,14 +4,26 @@
 	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
      <meta charset="utf-8">
      <title>Documento sin título</title>
-	<link href="style/style.css" rel="stylesheet" type="text/css">
+	<link href="style/style.css" rel="stylesheet" type="text/css" id="theme">
      </head>
 
 <body>
 	<section>
 		
-		     <div class="title"> <a href="index.html"><img  class="logo" src="diseño/3x/logofinal@3x.png"></a></div>
-		
+		     <div class= "container"> 
+				 <div class="row">
+					 <div class="col-4"></div>
+					 <div class="col-4"> <a href="index.html"><img  class="logo" src="diseño/3x/logofinal@3x.png"></a></div>
+					 <div class="col-2">
+					 <button type="button" class="btn btn-success boton" onclick="myalert()" respuesta>Iniciar Sesión</button></div>
+					  <div class="col-2">
+					  <button type="button" class="btn btn-success boton" onclick="myalert()"> Registrate  </button>
+					  <button type="button" class="btn btn boton botonmodo" onclick="switchSheet()">
+						  Modo  </button>
+						  </div>
+					 </div>
+				
+		</div>
 		<nav class="menuarcoiris">
               <div class="item-menu"><a href="index.html"><img class="menuser" src="diseño/2x/nosotros@2x.png"></a></div>
               <div class="item-menu"><a href="servicios.html"><img class="menuser" src="diseño/2x/servicios@2x.png"></a></div>
@@ -50,5 +62,6 @@
 			 </div>
 	     </div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
+	<script src="servicios.js"></script>
 </body>
 </html>
