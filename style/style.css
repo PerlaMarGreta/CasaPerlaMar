@@ -100,19 +100,22 @@ display: block;
 	margin: auto;
 }
 .menuarcoiris{
-	background-color: #4549F4;
+	background-color: #2f3692;
 	padding: 15px;
 	display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 25% 25% 25% 25%;
     justify-content: center;
 }
 .footercontacto{
-	background-color: #4549F4;
+	background-color: #2f3692;
 	margin-right: 0px;
 	margin-left: 0px;
 	padding: 0px;
 }
 
+.contenedor {
+	margin-top:50px;
+}
 
 
 .item-menu{
@@ -206,9 +209,22 @@ display: block;
 	margin-bottom: 20%;
 }
 
+.botonregis {
+
+	margin-top: 20%;
+	margin-left: 33%;
+
+}
+
 .botonmodo{
    background-color:#000000;
    color: #FFFFFF;
+}
+
+.donate{
+	margin-top: 13%;
+	margin-left: 33%;
+	margin-right: 33%;
 }
 @font-face{
 	font-family: Ramona Bold;
